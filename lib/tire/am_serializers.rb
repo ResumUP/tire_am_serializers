@@ -1,4 +1,4 @@
-require "tire/am_serializers/version"
+require "tire/version"
 require "tire/active_model/serializer"
 
 Tire::Results::Item.send(:include, ActiveModel::SerializerSupport)
