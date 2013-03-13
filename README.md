@@ -5,15 +5,16 @@ The easy way to add active model serializers to your tire results
 ## Installation
 
 Drop this line to your application's Gemfile:
-
-    gem 'tire-am_serializers'
+```ruby
+gem 'tire-am_serializers'
+```
 
 ## Usage
 
-Do nothing, it should works as expected
-
-    render json: User.search(...).results
-
+Do nothing, it should works as expected:
+```ruby
+render json: User.search(...).results
+```
 ## Contributing
 
 1. Fork it
