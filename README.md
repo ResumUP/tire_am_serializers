@@ -1,24 +1,18 @@
-# Tire::AmSerializers
+# Active Model Serializers + Tire
 
-TODO: Write a gem description
+The easy way to add active model serializers to your tire results
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Drop this line to your application's Gemfile:
 
     gem 'tire-am_serializers'
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install tire-am_serializers
-
 ## Usage
 
-TODO: Write usage instructions here
+Do nothing, it should works as expected
+
+    render json: User.search(...).results
 
 ## Contributing
 
