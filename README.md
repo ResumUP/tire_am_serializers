@@ -1,6 +1,6 @@
 # Active Model Serializers + Tire
 
-The easy way to add active model serializers to your tire results
+The easy way to add [Active Model Serializers](https://github.com/rails-api/active_model_serializers) to your [Tire](https://github.com/karmi/tire/) results.
 
 ## Installation
 
@@ -15,6 +15,12 @@ Do nothing, it should works as expected:
 ```ruby
 render json: User.search(...).results
 ```
+
+If you want to get old behaviour from Tire:
+```ruby
+render json: Vacancy.search("*").map(&:tire_as_json)
+```
+
 ## Contributing
 
 1. Fork it
