@@ -1,4 +1,4 @@
-# Active Model Serializers + Tire
+# Active Model Serializers + Tire (Beta)
 
 The easy way to add [Active Model Serializers](https://github.com/rails-api/active_model_serializers) to your [Tire](https://github.com/karmi/tire/) results.
 
