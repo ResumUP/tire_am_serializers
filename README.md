@@ -11,9 +11,9 @@ gem 'tire-am_serializers'
 
 ## Usage
 
-Do nothing, it should works as expected
-```
-$ render json: User.search(...).results
+Do nothing, it should works as expected:
+```ruby
+render json: User.search(...).results
 ```
 ## Contributing
 
