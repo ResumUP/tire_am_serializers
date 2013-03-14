@@ -9,7 +9,7 @@ module Tire
             "Tire#{self.class.name}Serializer".safe_constantize
           end
         else
-          def active_model_serializer
+          def tire_active_model_serializer
             begin
               "Tire#{self.class.name}Serializer".constantize
             rescue NameError => e
