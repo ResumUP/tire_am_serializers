@@ -1,6 +1,6 @@
 # Active Model Serializers + Tire (Beta)
 
-The easy way to add [Active Model Serializers](https://github.com/rails-api/active_model_serializers) to your [Tire](https://github.com/karmi/tire/) results.
+The easy way to add [Active Model Serializers](https://github.com/rails-api/active_model_serializers) to your [Tire](https://github.com/karmi/tire/) (client for the Elasticsearch search engine) results.
 
 ## Installation
 
