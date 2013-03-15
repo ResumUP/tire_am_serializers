@@ -11,14 +11,16 @@ gem 'tire-am_serializers'
 
 ## Usage
 
-Do nothing, it should works as expected:
+Same as [Active Model Serializers](https://github.com/rails-api/active_model_serializers):
 ```ruby
-render json: User.search(...).results
+render json: User.search(...)
 ```
+
+There is only one thing, Rails will look for `TireUserSeralizer` by default. If class doesn't exist, it will try to find  `UserSerailizer`. If no Serilaizers present for this model, it will use default behaviour of `to_json`.
 
 If you want to get old behaviour from Tire:
 ```ruby
-render json: Vacancy.search("*").map(&:tire_as_json)
+render json: Vacancy.search("*").to_json
 ```
 
 ## Contributing
