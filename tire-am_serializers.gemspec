@@ -6,8 +6,8 @@ require 'tire/version'
 Gem::Specification.new do |spec|
   spec.name          = "tire-am_serializers"
   spec.version       = Tire::AmSerializers::VERSION
-  spec.authors       = ["Sergey Efremov", "Ilya Zayats"]
-  spec.email         = ["efremov.sergey@gmail.com", "somebody32@gmail.com"]
+  spec.authors       = ["Sergey Efremov", "Ilya Zayats", "Vyacheslav Shebanov"]
+  spec.email         = ["efremov.sergey@gmail.com", "somebody32@gmail.com", "terminal2010@gmail.com"]
   spec.description   = %q{The easy way to add active model serializers to your tire results}
   spec.summary       = %q{The easy way to add active model serializers to your tire results}
   spec.homepage      = "https://github.com/ResumUP/tire_am_serializers/"
